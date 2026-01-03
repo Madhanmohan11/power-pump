@@ -92,10 +92,14 @@
     --sidebar-ring: 24 100% 50%;
   }
 }
-
 @layer base {
   * {
     @apply border-border;
+  }
+
+  html, body {
+    width: 100%;
+    overflow-x: hidden;
   }
 
   body {
@@ -107,6 +111,9 @@
     letter-spacing: 0.02em;
   }
 }
+
+
+ 
 
 @layer utilities {
   .font-display {
