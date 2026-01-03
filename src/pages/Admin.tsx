@@ -141,7 +141,6 @@ const Admin = () => {
               <img src={logo} alt="Power Pump" className="relative h-20 w-20 rounded-full object-cover border-2 border-primary/50" />
             </div>
             <span className="font-display text-3xl tracking-wider">POWER PUMP</span>
-            <span className="text-muted-foreground text-sm">Admin Portal</span>
           </div>
           
           <div className="bg-card/80 backdrop-blur-sm border border-border/50 rounded-2xl p-8 shadow-2xl">
@@ -180,11 +179,6 @@ const Admin = () => {
                 Sign In
               </Button>
             </form>
-            <div className="mt-6 pt-4 border-t border-border/30">
-              <p className="text-xs text-muted-foreground text-center">
-                Demo credentials: <span className="text-foreground">admin@powerpump.com</span> / <span className="text-foreground">admin123</span>
-              </p>
-            </div>
           </div>
         </motion.div>
       </div>
